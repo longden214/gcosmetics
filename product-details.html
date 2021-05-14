@@ -102,15 +102,18 @@
                                     <ul>
                                         <!-- Search Box Start Here -->
                                         <li>
-                                            <a href="#">
+                                            <a href="#" class = "url-search" target="_blank" >
                                                 <span class="fa fa-search"></span>
                                             </a>
-                                            <div class="categorie-search-box ht-dropdown">
+                                            <div class="categorie-search-box ht-dropdown search-input">
                                                 <form action="#">
                                                     <input type="text" name="search" placeholder="Search our catalog">
-                                                    <button>
+                                                    <button class = "icon-search-top">
                                                         <span class="fa fa-search"></span>
                                                     </button>
+                                                    <div class="autocom-box">
+                                                        <!-- here list are inserted from javascript -->
+                                                    </div>
                                                 </form>
                                             </div>
                                         </li>
@@ -190,28 +193,23 @@
                             <p class="pro-desc-details">Faded short sleeves t-shirt with high neckline. Soft and
                                 stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready
                                 for summer!</p>
-                            <div class="product-size mtb-30 clearfix">
-                                <label>Size</label>
-                                <select class="">
-                                    <option>S</option>
-                                    <option>M</option>
-                                    <option>L</option>
-                                </select>
+                            <div class="product-variations">
+                                <label>Look Eye Material</label>
+                                <div class="list-pro-variations">
+                                    <button class="pro-variation">quang long</button> 
+                                    <button class="pro-variation">quang dat</button>
+                                    <button class="pro-variation">lien</button>
+                                    <button class="pro-variation">a20</button>
+                                    <button class="pro-variation">S</button>
+                                    <button class="pro-variation">quang long</button> 
+                                    <button class="pro-variation">quang dat</button>
+                                    <button class="pro-variation">lien</button>
+                                    <button class="pro-variation">a20</button>
+                                    <button class="pro-variation">S</button>
+                                    
+                                </div>
                             </div>
-                            <div class="color clearfix mb-30">
-                                <label>color</label>
-                                <ul class="color-list">
-                                    <li>
-                                        <a class="white" href="#"></a>
-                                    </li>
-                                    <li>
-                                        <a class="orange active" href="#"></a>
-                                    </li>
-                                    <li>
-                                        <a class="paste" href="#"></a>
-                                    </li>
-                                </ul>
-                            </div>
+                           
                             <div class="quatity-stock">
                                 <label>Quantity</label>
                                 <ul class="d-flex flex-wrap  align-items-center">
@@ -409,7 +407,7 @@
         </div>
         <!-- New Arrival Products End Here -->
         <!-- Footer Area Start Here -->
-<footer class="pb-35">
+    <footer class="pb-35">
             <div class="container">
                 <!-- Footer Middle Start -->
                 <div class="footer-middle ptb-90">
@@ -586,6 +584,8 @@
     </div>
     <!-- Main Wrapper End Here -->
 
+    <script src="js/style.js"></script>
+    <script src="js/suggestions.js"></script>
     <!-- jquery 3.3.1 -->
     <script src="js/vendor/jquery-3.3.1.min.js"></script>
     <!-- Countdown js -->

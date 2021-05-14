@@ -1,78 +1,5 @@
 /*--------------------------------------------------------------------
-Template Name: Makali;
-Description: Multipurpose HTML Template;
-Version: 1.0;
------------------------------------------------------
 
-    CSS INDEX
-    ================
-    1. Theme Default CSS
-        1.1 Makali's Button Variation
-        1.2 Template Color Variation
-    2. Newsletter Popup CSS
-    3. Header CSS
-        3.01 Header Top CSS
-        3.02 Header Bottom CSS
-        3.03 Organic Header Style
-        3.04 Autopart Header Style
-        3.05 Digital Header Style
-        3.06 Food Header Style
-        3.07 Handmade Header Style
-        3.08 Pet Header Style
-        3.09 Toy Header Style
-        3.10 Book Header Style
-        3.11 Kitchenware Header Style
-        3.12 Sportwear Header Style
-        3.13 Supermarket Header Style
-        3.14 Flower Header Style
-        3.15 Bicycle Header Style
-        3.16 Barber Header Style
-    4. Support Area CSS
-    5. Slider CSS
-    6. All Banner CSS
-        6.01 Banner With Text Area
-        6.02 Banner With Countdown
-        6.03 Bicycle Banner
-        6.04 Barber Banner
-    7. All Products CSS
-        7.01 Four Slide Area
-        7.02 Pet Product Tab
-        7.03 Single Makali Product Two
-    8. Daily Deal Product CSS
-        8.01 Banner Countdown
-    9. Categorie Product CSS
-    10. Blog & Blog Details CSS
-    11. Testmonial CSS
-    12. Multi Setction With Sidebar CSS
-    13. Footer CSS
-    14. Breadcrumb CSS
-    15. Shop Page CSS
-    16. Product Details CSS
-    17. Compare Page CSS
-    18. Checkout CSS
-    19. Cart & Wish List CSS
-    20. About us CSS
-    21. Your Account CSS
-    22. Login CSS
-    23. Register Account & Contact Form CSS
-    24. Forgot Password CSS
-    25. 404 Page CSS
-    26. Popular Categories Area
-        26.01 Pet Categories Style
-        26.02 Kitchenware Category Style
-    27. Newsletter Area
-        27.01 Toy Newsletter Area
-    28. Popular Categories Slider Two
-    29. Product Progressbar
-    30. Instagram Area
-    31. Supermarket Wrapper
-    32. Supermarket Custom Column
-    33. Six Slide Item Slider
-    34. Featured Categories
-    35. Flower Single Product
-    36. Our Services
-    37. Categoires Product
-    
 -----------------------------------------------------------------*/
 /* googel font Libre Franklin */
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700');
@@ -88,6 +15,71 @@ body {
     background: #fff;
     line-height: 1.25em;
 }
+/* start css filter price */
+    *{}
+
+.list-pro-variations {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-variations {margin-bottom: 15px;margin-top: 30px;}
+
+.list-pro-variations button.pro-variation:hover,
+.list-pro-variations button.pro-variation.active{
+    color: #c7b270;
+    border: 1px solid #c7b270;
+}
+
+.list-pro-variations button.pro-variation {
+    cursor: pointer;
+    min-width: 5rem;
+    min-height: 2.125rem;
+    box-sizing: border-box;
+    padding: .25rem .75rem;
+    margin: 0 8px 8px 0;
+    color: rgba(0,0,0,.8);
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.09);
+    position: relative;
+    background: #fff;
+    outline: 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+button.button-solid.button-solid--primary {
+    height: 1.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    background-color: #c7b270;
+    color: #fff;
+    border-radius: 0.125rem;
+    border: 1px solid #c7b270;
+}
+
+.price-range-filter__inputs input.price-range-filter__input {
+    height: 1.875rem;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.26);
+    box-sizing: border-box;
+    padding-left: .3125rem;
+    text-transform: uppercase;
+    border-radius: 0.125rem;
+    box-shadow: inset 0 1px 0 0 rgb(0 0 0 / 5%);
+    width: 7rem;
+    font-size: 0.75rem;
+}
+
+.price-range-filter__inputs {
+    margin-bottom: 20px;
+}
+    
+/* end css filter price */
 
 /* ------------------------------- */
 .search-input .autocom-box{

@@ -84,6 +84,12 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         container: 'body'
     });
 
+    $(".list-pro-variations .pro-variation").on('click',function(e){
+        if (!$(this).hasClass("active")) {
+            $(".list-pro-variations .pro-variation.active").removeClass("active");
+            $(this).addClass("active");
+        }
+    });
     /*----------------------------
     04. Checkout Page Activation
     -----------------------------*/

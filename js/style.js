@@ -21,7 +21,7 @@
             });
             emptyArray = emptyArray.map((data)=>{
                 // passing return data inside li tag
-                return data = '<li>'+ data +'</li>';
+                return data = '<li> <a href="https://www.google.com">'+ data +'</a> </li>';
             });
             searchWrapper.classList.add("active"); //show autocomplete box
             showSuggestions(emptyArray);
@@ -50,9 +50,10 @@
         let listData;
         if(!list.length){
             userValue = inputBox.value;
-            listData = '<li>'+ userValue +'</li>';
+            listData = '<li> <a href="https://www.google.com">'+ userValue +'</a> </li>';
         }else{
             listData = list.join('');
         }
         suggBox.innerHTML = listData;
     }
+

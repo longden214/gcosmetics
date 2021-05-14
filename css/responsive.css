@@ -14,6 +14,10 @@
 
 /*=============== Large(LG) Device ===============*/
 @media (min-width: 992px) and (max-width: 1199px) {
+    .price-range-filter__inputs input.price-range-filter__input{
+        width: 5.2rem;
+    }
+
     .header-bottom-list > li > a {
         font-size: 13px;
         padding: 16px 14px 15px;
@@ -84,6 +88,15 @@
 
 /*=============== Medium (md) Device ===============*/
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .price-range-filter__inputs input.price-range-filter__input{
+        width: 9rem;
+    }
+
+    button.button-solid.button-solid--primary{
+        width: 100px;
+    }
+
     .support-desc h6 {
         font-size: 12px;
     }
@@ -104,6 +117,11 @@
 
 /*=============== 0 to 991 ===============*/
 @media (max-width: 991px) {
+
+    button.button-solid.button-solid--primary{
+        width: 100px;
+    }
+
     .pt-90 {
         padding-top: 60px;
     }
@@ -433,6 +451,11 @@
 
 /*=============== Small (sm) Device ===============*/
 @media (max-width: 767px) {
+
+    button.button-solid.button-solid--primary{
+        width: 100px;
+    }
+
     .section-title h2 {
         font-size: 28px;
     }
@@ -636,6 +659,16 @@
 
 /*=============== Mobile Device ===============*/
 @media (max-width: 480px) {
+
+    .price-range-filter__inputs input.price-range-filter__input{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .price-range-filter__inputs span{
+        display: none;
+    }
+
     .slider-content h1 {
         font-size: 20px;
     }
@@ -680,7 +713,7 @@
         max-width: 100%;
     }
     .support-desc h6 {
-        ;
+        
         font-size: 13px;
     }
     .header-top-left {
