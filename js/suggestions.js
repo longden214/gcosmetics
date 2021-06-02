@@ -16,7 +16,7 @@ let suggestions = [
     "Developer",
     "Web Designer",
     "Web Developer",
-    "Login Form in HTML & CSS",
+    "Login Form in HTML & CSS aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacccccccccccccccccccc",
     "How to learn HTML & CSS",
     "How to learn JavaScript",
     "How to became Freelancer",

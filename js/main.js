@@ -1,56 +1,4 @@
-/*--------------------------------------------------
-Template Name: Makali;
-Description: Makali – Multipurpose HTML Template;
-Version: 1.0;
 
-NOTE: main.js, All custom script and plugin activation script in this file. 
------------------------------------------------------
-
-    JS INDEX
-    ================================================
-    01. Newsletter Popup
-    02. Mobile Menu Activation
-    03. Tooltip Activation
-    04. Checkout Page Activation
-    05. Slider Activation
-    06. Our Product Activation
-    07. Our Product Activation Two
-    08. Best Seller Activation
-    09. Best Seller Activation Two
-    10. Blog Activation
-    11. Daily Deal Activation
-    12. Single Deal Activation
-    13. Hot Deal Activation
-    14. Hot Deal Activation Two
-    15. Tripple Pro Activation
-    16. Five Slide Item
-    17. Four Slide Item
-    18. Arrival Pro Activation
-    19. Categorie Products Activation
-    20. Thumbnail Product activation
-    21. Testmonial Activation
-    22. Testmonial Activation Two
-    23. Recent Post Activation
-    24. Categorie Slider Activation
-    25. Categorie Slider Activation Two
-    26. Countdown Js Activation
-    27. ScrollUp Activation
-    28. Sticky-Menu Activation
-    29. Nice Select Activation
-    30. Price Slider Activation
-    31. Brand Logo  Activation
-    32. Category Menu
-    33. Four Slide Item Two
-    34. Categorie Slider Activation Three
-    35. Popular Categories Slider
-    36. Popular Categories Slider Two
-    37. Categorie Slider Activation Four
-    38. Six Slide Item
-    39. Categorie Slider Activation Five
-    40. Brand Logo Activation Two
-    41. Arrival Pro Activation Two
-    
-================================================*/
 
 (function ($) {
     "use Strict";
@@ -83,7 +31,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         placement: 'top',
         container: 'body'
     });
-
+    //active product varidation
     $(".list-pro-variations .pro-variation").on('click',function(e){
         if (!$(this).hasClass("active")) {
             $(".list-pro-variations .pro-variation.active").removeClass("active");

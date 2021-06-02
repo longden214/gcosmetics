@@ -117,6 +117,14 @@
 
 /*=============== 0 to 991 ===============*/
 @media (max-width: 991px) {
+    li.searchbar-mobile-table {
+    display: block;
+    }
+
+
+    .cart-box > ul > li.search-device-large {
+        display: none;
+    }
 
     button.button-solid.button-solid--primary{
         width: 100px;
@@ -567,6 +575,11 @@
 
 /*=============== Tablet Device ===============*/
 @media (max-width: 575px) {
+
+    .categorie-search-box{
+        width: 400px;
+    }
+
     .header-top-right > ul > li > a {
         font-size: 13px;
     }
@@ -685,7 +698,6 @@
     .categorie-search-box {
         left: auto;
         padding: 0;
-        right: -110px;
         width: 280px;
     }
     .header-style-two .logo {

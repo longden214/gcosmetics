@@ -1,7 +1,7 @@
     const searchWrapper = document.querySelector(".search-input");
-    const inputBox = document.querySelector(".search-input input");
+    const inputBox = document.querySelector("input.search-content");
     const suggBox = document.querySelector(".autocom-box");
-    const icon = document.querySelector(".icon-search-top");
+    const icon = document.querySelector(".icon-search");
     let linkTag = document.querySelector(".url-search");
     let webLink;
 

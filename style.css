@@ -15,8 +15,78 @@ body {
     background: #fff;
     line-height: 1.25em;
 }
+
+/* start css searchbar device large */
+
+/* end css searchbar device large */
+*{}
+
+.autocom-box li a {
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.autocom-box li {
+    text-align: left;
+}
+.cart-box > ul > li.search-device-large {
+    padding: 22px 0;
+}
+
+.search-device-large form:hover {
+    cursor: pointer;
+}
+
+.search-device-large i.fa.fa-search {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 9px;
+    width: 37.5px;
+    height: 37.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: #c7b270;
+}
+
+.search-device-large form input[type="search"] {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 37.5px;
+    border-radius: 20px;
+    line-height: 30px;
+    outline: 0;
+    font-size: 1em;
+    border: 0;
+    padding: 0 20px;
+}
+
+.search-device-large form {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: 2px solid #ededed;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+li.searchbar-mobile-table {
+    display: none;
+}
+
+
 /* start css filter price */
-    *{}
 
 .list-pro-variations {
     display: flex;
@@ -4550,7 +4620,7 @@ ul {
 }
 
 .drop-icon::after {
-    content: "";
+    content: "ï„‡";
     font-family: FontAwesome;
     font-size: 16px;
     margin-left: 5px;
@@ -4700,7 +4770,7 @@ ul {
     left: auto;
     padding: 0;
     right: 0;
-    width: 400px;
+    width: 460px;
 }
 
 .categorie-search-box form {
@@ -4816,12 +4886,12 @@ ul {
 
 .cart-box > ul {
     -moz-box-pack: end;
-    display: -webkit-box;
+    /* display: -webkit-box; */
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
+    /* display: flex; */
+    /* -webkit-box-pack: end; */
     -ms-flex-pack: end;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -4831,6 +4901,8 @@ ul {
     position: relative;
     padding: 30px 0;
     line-height: 1;
+    width: 100%;
+    text-align: right;
 }
 
 .cart-box-width {
@@ -8041,7 +8113,7 @@ ul {
 
 
 .quick-view::before {
-    content: "";
+    content: "î™‚";
     font-family: "Pe-icon-7-stroke";
     font-size: 18px;
 }
@@ -8051,7 +8123,7 @@ ul {
     background: #fff none repeat scroll 0 0;
     border-radius: 100%;
     color: #a3a3a3;
-    content: "";
+    content: "î˜˜";
     display: block;
     font-size: 20px;
     height: 44px;
@@ -9064,7 +9136,7 @@ ul {
 }
 
 .categorie-list a::before {
-    content: "";
+    content: "ï„";
     font-family: FontAwesome;
     font-size: 13px;
     padding-right: 5px;
@@ -10090,7 +10162,7 @@ ul {
 .rating-summary li.read-review::before,
 .rating-summary li.write-review::before {
     color: #555;
-    content: "";
+    content: "ïƒ¥";
     font-family: FontAwesome;
     font-size: 15px;
     font-weight: 400;
@@ -10923,7 +10995,7 @@ p.checkout-coupon input[type="submit"] {
 
 .payment-accordion h3 a:before,
 .payment-accordion h3.open a:after {
-    content: "Ã¯Ââ€¢";
+    content: "ÃƒÂ¯Ã‚ÂÃ¢â‚¬Â¢";
     display: inline-block;
     font-family: fontawesome;
     font-size: 20px;
@@ -11526,7 +11598,7 @@ a.shipping-calculator-button:hover {
 
 .user-name::before {
     color: #555;
-    content: "";
+    content: "ï";
     font-family: FontAwesome;
     font-size: 18px;
     left: 0;
@@ -12496,9 +12568,9 @@ a.shipping-calculator-button:hover {
 }
 .categoires-inner_btn{
     position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .categoires-inner_btn a{
     background-color: #ffffff;
